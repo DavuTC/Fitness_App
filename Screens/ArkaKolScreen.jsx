@@ -13,7 +13,7 @@ function ArkaKolScreen({ navigation }) {
         onPress={() => navigation.navigate('Diamond Push Up')}
       >
         <Text style={styles.buttonText}>Diamond Push Up</Text>
-      </TouchableOpacity>
+      </TouchableOpacity> 
 
 
       <TouchableOpacity
