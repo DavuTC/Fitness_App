@@ -19,6 +19,26 @@ import DumbbellTricepsKickbackScreen from './Screens/ExercisesScreen/ArkaKolExer
 import LyingTricepsExtensionScreen from './Screens/ExercisesScreen/ArkaKolExercises/LyingTricepsExtensionScreen';
 import OverheadTricepsExtensionScreen from './Screens/ExercisesScreen/ArkaKolExercises/OverheadTricepsExtensionScreen';
 import TricepsRopePushdownScreen from './Screens/ExercisesScreen/ArkaKolExercises/TricepsRopePushdownScreen';
+import BenchPressScreen from './Screens/ExercisesScreen/GogusExercises/BenchPressScreen';
+import CableCrossoverScreen from './Screens/ExercisesScreen/GogusExercises/CableCrossoverScreen';
+import DeclineBenchPressScreen from './Screens/ExercisesScreen/GogusExercises/DeclineBenchPressScreen';
+import DumbellFlyScreen from './Screens/ExercisesScreen/GogusExercises/DumbellFlyScreen';
+import DumbellPressScreen from './Screens/ExercisesScreen/GogusExercises/DumbellPressScreen';
+import DumbellPullOverScreen from './Screens/ExercisesScreen/GogusExercises/DumbellPullOverScreen';
+import İnclineBenchPressScreen from './Screens/ExercisesScreen/GogusExercises/İnclineBenchPressScreen';
+import InclineDumbellPressScreen from './Screens/ExercisesScreen/GogusExercises/InclineDumbellPressScreen';
+import LoverPecDecFlyScreen from './Screens/ExercisesScreen/GogusExercises/LoverPecDecFlyScreen';
+import PecFlyMachineScreen from './Screens/ExercisesScreen/GogusExercises/PecFlyMachineScreen';
+import ArnoldPressScreen from './Screens/ExercisesScreen/OmuzExercises/ArnoldPressScreen';
+import BackPressScreen from './Screens/ExercisesScreen/OmuzExercises/BackPressScreen';
+import BentOverLateralRaiseScreen from './Screens/ExercisesScreen/OmuzExercises/BentOverLateralRaiseScreen';
+import CableBentOverLateralRaiseScreen from './Screens/ExercisesScreen/OmuzExercises/CableBentOverLateralRaiseScreen';
+import DumbelFrontRaisesScreen from './Screens/ExercisesScreen/OmuzExercises/DumbelFrontRaisesScreen';
+import FacePullScreen from './Screens/ExercisesScreen/OmuzExercises/FacePullScreen';
+import FrontRaiseScreen from './Screens/ExercisesScreen/OmuzExercises/FrontRaiseScreen';
+import LateralRaiseScreen from './Screens/ExercisesScreen/OmuzExercises/LateralRaiseScreen';
+import OverheadPressScreen from './Screens/ExercisesScreen/OmuzExercises/OverheadPressScreen';
+import UpRightRowScreen from './Screens/ExercisesScreen/OmuzExercises/UpRightRowScreen';
 
 
 const Stack = createStackNavigator();
@@ -45,6 +65,27 @@ function App(){
         <Stack.Screen name='Lying Triceps Extension' component={LyingTricepsExtensionScreen}/>
         <Stack.Screen name='Overhead Triceps Extension' component={OverheadTricepsExtensionScreen}/>
         <Stack.Screen name='Triceps Rope Pushdown' component={TricepsRopePushdownScreen}/>
+        <Stack.Screen name='Bench Press' component={BenchPressScreen}/>
+        <Stack.Screen name='Cable Cross Over' component={CableCrossoverScreen}/>
+        <Stack.Screen name='Decline Bench Press' component={DeclineBenchPressScreen}/>
+        <Stack.Screen name='Dumbell Fly' component={DumbellFlyScreen}/>
+        <Stack.Screen name='Dumbell Press' component={DumbellPressScreen}/>
+        <Stack.Screen name='Dumbell Pull Over' component={DumbellPullOverScreen}/>
+        <Stack.Screen name='İncline Bench Press' component={İnclineBenchPressScreen}/>
+        <Stack.Screen name='Incline Dumbell Press' component={InclineDumbellPressScreen}/>
+        <Stack.Screen name='Lover Pec Dec Fly' component={LoverPecDecFlyScreen}/>
+        <Stack.Screen name='Pec Fly Machine' component={PecFlyMachineScreen}/>
+        <Stack.Screen name='Arnold Press' component={ArnoldPressScreen}/>
+        <Stack.Screen name='Back Press' component={BackPressScreen}/>
+        <Stack.Screen name='Cable Bent Over Lateral Raise' component={CableBentOverLateralRaiseScreen}/>
+        <Stack.Screen name='Bent Over Lateral Raise' component={BentOverLateralRaiseScreen}/>
+        <Stack.Screen name='Dumbel Front Raises' component={DumbelFrontRaisesScreen}/>
+        <Stack.Screen name='Face Pull' component={FacePullScreen}/>
+        <Stack.Screen name='Front Raise' component={FrontRaiseScreen}/>
+        <Stack.Screen name='Lateral Raise' component={LateralRaiseScreen}/>
+        <Stack.Screen name='Overhead Press' component={OverheadPressScreen}/>
+        <Stack.Screen name='Up Right Row' component={UpRightRowScreen}/>
+        
         
         
 
