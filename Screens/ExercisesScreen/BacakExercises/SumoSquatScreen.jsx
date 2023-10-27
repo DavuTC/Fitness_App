@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text,Button, StyleSheet, Image, } from 'react-native';
 
-function StandingCalfRaiseScreen({ navigation }) {
+function SumosquatScreen({ navigation }) {
     return (
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
@@ -11,7 +11,7 @@ function StandingCalfRaiseScreen({ navigation }) {
         style={{ width: 300, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>
-        <Text>Standing Calf Raise</Text>
+        <Text>Sumo Squat</Text>
 
 
         <Button

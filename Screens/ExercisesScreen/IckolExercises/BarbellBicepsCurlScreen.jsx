@@ -7,7 +7,7 @@ function BarbellBicepsCurlScreen({ navigation }) {
         <View style={styles.buttonContainer}>
         
         <Image
-        source={require('../../../Images/Kalca/DeadLift.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
+        source={require('../../../Images/IcKol/BarbellBicepsCurl.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
         style={{ width: 300, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>

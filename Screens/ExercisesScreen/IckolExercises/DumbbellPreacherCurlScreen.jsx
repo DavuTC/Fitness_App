@@ -1,17 +1,17 @@
 import React from 'react';
 import { View, Text,Button, StyleSheet, Image, } from 'react-native';
 
-function DumbbellHammerCurlScreen({ navigation }) {
+function DumbbellPreacherCurlScreen({ navigation }) {
     return (
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
         
         <Image
-        source={require('../../../Images/IcKol/DumbbellHammerCurl.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
-        style={{ width: 400, height: 300 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
+        source={require('../../../Images/IcKol/DumbbellPreacherCurl.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
+        style={{ width: 350, height: 250 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>
-        <Text>Dumbbell Hammer Curl</Text>
+        <Text>Dumbbell PreacherCurl</Text>
 
 
         <Button
@@ -74,4 +74,4 @@ function DumbbellHammerCurlScreen({ navigation }) {
     // Diğer stil özellikleri burada tanımlanabilir
   });
 
-export default DumbbellHammerCurlScreen;
+export default DumbbellPreacherCurlScreen;

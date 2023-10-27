@@ -79,7 +79,7 @@ function HomeScreen({ navigation }) {
         style={styles.button}
         onPress={() => navigation.navigate('Ic Kol')}
       >
-        <Text style={styles.buttonText}>Ön Kol</Text>
+        <Text style={styles.buttonText}>İç Kol</Text>
       </TouchableOpacity>  
 
       

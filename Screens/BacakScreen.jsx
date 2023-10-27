@@ -34,7 +34,7 @@ function BacakScreen({ navigation }) {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Sumo squat')}
+        onPress={() => navigation.navigate('Sumo Squat')}
       >
         <Text style={styles.buttonText}>Sumo squat</Text>
       </TouchableOpacity>

@@ -114,7 +114,7 @@ function App(){
         <Stack.Screen name='Jump Squat' component={JumpSquatScreen}/>
         <Stack.Screen name='Lying Curl' component={LyingCurlScreen}/>
         <Stack.Screen name='Standing Calf Raise' component={StandingCalfRaiseScreen}/>
-        <Stack.Screen name='Sumo squat' component={SumosquatScreen}/>
+        <Stack.Screen name='Sumo Squat' component={SumosquatScreen}/>
         <Stack.Screen name='Thigh Adductor' component={ThighAdductorScreen}/>
         {/* kalça egzersizleri */}
         <Stack.Screen name='CableGlute KickBack' component={CableGluteKickBackScreen}/>
@@ -125,8 +125,8 @@ function App(){
         {/* iç kol egzersizleri */}
         <Stack.Screen name='Barbell Biceps Curl' component={BarbellBicepsCurlScreen}/>
         <Stack.Screen name='Dumbbell Concentration Curl' component={DumbbellConcentrationCurlScreen}/>
-        <Stack.Screen name='Frog Pump' component={DumbbellHammerCurlScreen}/>
-        <Stack.Screen name='Frog Pump' component={DumbbellPreacherCurlScreen}/>
+        <Stack.Screen name='Dumbbell HammerCurl' component={DumbbellHammerCurlScreen}/>
+        <Stack.Screen name='Dumbbell PreacherCurl' component={DumbbellPreacherCurlScreen}/>
 
 
 

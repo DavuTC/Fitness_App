@@ -26,25 +26,18 @@ function IcKolScreen({ navigation }) {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Frog Pump')}
+        onPress={() => navigation.navigate('Dumbbell HammerCurl')}
       >
-        <Text style={styles.buttonText}>Frog Pump</Text>
+        <Text style={styles.buttonText}>Dumbbell HammerCurl'</Text>
       </TouchableOpacity>
+
 
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('HighStep Up')}
+        onPress={() => navigation.navigate('Dumbbell PreacherCurl')}
       >
-        <Text style={styles.buttonText}>HighStep Up</Text>
-      </TouchableOpacity>
-
-
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate('Walking Lunge')}
-      >
-        <Text style={styles.buttonText}>Walking Lunge</Text>
+        <Text style={styles.buttonText}>Dumbbell PreacherCurl</Text>
       </TouchableOpacity>
 
      
