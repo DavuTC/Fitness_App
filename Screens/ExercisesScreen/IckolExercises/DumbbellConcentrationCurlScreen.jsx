@@ -1,22 +1,22 @@
 import React from 'react';
 import { View, Text,Button, StyleSheet, Image, } from 'react-native';
 
-function ThighAdductorScreen({ navigation }) {
+function DumbbellConcentrationCurlScreen({ navigation }) {
     return (
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
         
         <Image
-        source={require('../../../Images/Bacak/Sumosquat.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
+        source={require('../../../Images/Kalca/DeadLift.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
         style={{ width: 300, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>
-        <Text>Thigh Adductor</Text>
+        <Text>Dumbbell Concentration Curl</Text>
 
 
         <Button
-          title="Bacak Egzersizine Git"
-          onPress={() => navigation.navigate('Bacak')}
+          title="İç Kol Egzersizine Git"
+          onPress={() => navigation.navigate('Ic Kol')}
         />
         
       </View>
@@ -74,4 +74,4 @@ function ThighAdductorScreen({ navigation }) {
     // Diğer stil özellikleri burada tanımlanabilir
   });
 
-export default ThighAdductorScreen;
+export default DumbbellConcentrationCurlScreen;

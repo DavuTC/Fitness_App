@@ -7,7 +7,7 @@ function JumpSquatScreen({ navigation }) {
         <View style={styles.buttonContainer}>
         
         <Image
-        source={require('../../../Images/')} // Resmin dosya yolunu projenize göre ayarlayın
+        source={require('../../../Images/Bacak/JumpSquat.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
         style={{ width: 300, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>

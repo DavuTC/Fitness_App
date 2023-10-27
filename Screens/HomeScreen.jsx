@@ -50,7 +50,7 @@ function HomeScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Kalça')}
+        onPress={() => navigation.navigate('Kalca')}
       >
         <Text style={styles.buttonText}>Kalça</Text>
       </TouchableOpacity>
@@ -77,7 +77,7 @@ function HomeScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Ön Kol')}
+        onPress={() => navigation.navigate('Ic Kol')}
       >
         <Text style={styles.buttonText}>Ön Kol</Text>
       </TouchableOpacity>  

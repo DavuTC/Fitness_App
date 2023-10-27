@@ -7,7 +7,7 @@ function LyingCurlScreen({ navigation }) {
         <View style={styles.buttonContainer}>
         
         <Image
-        source={require('../../../Images/Bacak/')} // Resmin dosya yolunu projenize göre ayarlayın
+        source={require('../../../Images/Bacak/LyingCurl.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
         style={{ width: 300, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>

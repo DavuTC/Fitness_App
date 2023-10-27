@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text,Button, TouchableOpacity,StyleSheet } from 'react-native';
 
 
-function BacakScreen({ navigation }) {
+function IcKolScreen({ navigation }) {
   return (
     <View style= {StyleSheet.Container}>
 
@@ -10,41 +10,41 @@ function BacakScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Jump Squat')}
+        onPress={() => navigation.navigate('Barbell Biceps Curl')}
       >
-        <Text style={styles.buttonText}>Jump Squat</Text>
+        <Text style={styles.buttonText}>Barbell Biceps Curl</Text>
       </TouchableOpacity> 
 
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Lying Curl')}
+        onPress={() => navigation.navigate('Dumbbell Concentration Curl')}
       >
-        <Text style={styles.buttonText}>Lying Curl</Text>
+        <Text style={styles.buttonText}>Dumbbell Concentration Curl</Text>
       </TouchableOpacity>
 
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Standing Calf Raise')}
+        onPress={() => navigation.navigate('Frog Pump')}
       >
-        <Text style={styles.buttonText}>Standing Calf Raise</Text>
+        <Text style={styles.buttonText}>Frog Pump</Text>
       </TouchableOpacity>
 
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Sumo squat')}
+        onPress={() => navigation.navigate('HighStep Up')}
       >
-        <Text style={styles.buttonText}>Sumo squat</Text>
+        <Text style={styles.buttonText}>HighStep Up</Text>
       </TouchableOpacity>
 
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Thigh Adductor')}
+        onPress={() => navigation.navigate('Walking Lunge')}
       >
-        <Text style={styles.buttonText}>Thigh Adductor</Text>
+        <Text style={styles.buttonText}>Walking Lunge</Text>
       </TouchableOpacity>
 
      
@@ -104,5 +104,5 @@ const styles = StyleSheet.create({
   },
 
 });
-export default BacakScreen;
+export default IcKolScreen;
 ;
