@@ -1,17 +1,17 @@
 import React from 'react';
 import { View, Text,Button, StyleSheet, Image, } from 'react-native';
 
-function SumosquatScreen({ navigation }) {
+function StandingCalfRaiseScreen({ navigation }) {
     return (
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
         
         <Image
-        source={require('../../../Images/Bacak/Sumosquat.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
+        source={require('../../../Images/Bacak/StandingCalfRaise.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
         style={{ width: 300, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>
-        <Text>Sumo squat</Text>
+        <Text>Standing Calf Raise</Text>
 
 
         <Button
