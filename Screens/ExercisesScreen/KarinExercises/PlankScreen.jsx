@@ -1,22 +1,22 @@
 import React from 'react';
 import { View, Text,Button, StyleSheet, Image, } from 'react-native';
 
-function BenchPressScreen({ navigation }) {
+function PlankScreen({ navigation }) {
     return (
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
         
         <Image
-        source={require('../../../Images/Gogus/BenchPress.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
-        style={{ width: 400, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
+        source={require('../../../Images/Karin/Plank.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
+        style={{ width: 300, height: 250 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>
-        <Text>Bench Press</Text>
+        <Text>Plank</Text>
 
 
         <Button
-          title="Göğüs Egzersizine Git"
-          onPress={() => navigation.navigate('Göğüs')}
+          title="Karın Egzersizine Git"
+          onPress={() => navigation.navigate('Karin')}
         />
         
       </View>
@@ -74,4 +74,4 @@ function BenchPressScreen({ navigation }) {
     // Diğer stil özellikleri burada tanımlanabilir
   });
 
-export default BenchPressScreen;
+export default PlankScreen;

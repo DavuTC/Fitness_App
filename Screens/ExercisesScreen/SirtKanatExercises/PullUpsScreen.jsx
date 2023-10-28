@@ -1,27 +1,29 @@
 import React from 'react';
-import { View, Text,Button, StyleSheet, Image, } from 'react-native';
+import { View, Text,Button, Image, StyleSheet,  } from 'react-native';
 
-function BenchPressScreen({ navigation }) {
+
+function PullUpsScreen({ navigation }) {
     return (
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
-        
         <Image
-        source={require('../../../Images/Gogus/BenchPress.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
-        style={{ width: 400, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
+        source={require('../../../Images/SirtKanat/PullUps.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
+        style={{ width: 400, height: 300 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
+        
+
         </View>
-        <Text>Bench Press</Text>
 
-
+        <Text>Pull Ups</Text>
         <Button
-          title="Göğüs Egzersizine Git"
-          onPress={() => navigation.navigate('Göğüs')}
+          title="Sırt - Kanat Egzersizine Git"
+          onPress={() => navigation.navigate('Sirt Kanat')}
         />
         
       </View>
     );
   }
+
   const styles = StyleSheet.create({
   
     container: {
@@ -74,4 +76,4 @@ function BenchPressScreen({ navigation }) {
     // Diğer stil özellikleri burada tanımlanabilir
   });
 
-export default BenchPressScreen;
+export default PullUpsScreen;

@@ -7,7 +7,7 @@ function LyingTricepsExtensionScreen({ navigation }) {
         <View style={styles.buttonContainer}>
         <Image
         source={require('../../../Images/Arkakol/LyingTricepsExtension.png')} // Resmin dosya yolunu projenize göre ayarlayın
-        style={{ width: 300, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
+        style={{ width: 400, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         
 

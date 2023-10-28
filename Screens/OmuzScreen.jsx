@@ -47,6 +47,7 @@ function OmuzScreen({ navigation }) {
       </TouchableOpacity>
 
 
+
       <TouchableOpacity
         style={styles.button}
         onPress={() => navigation.navigate('Face Pull')}
@@ -54,13 +55,6 @@ function OmuzScreen({ navigation }) {
         <Text style={styles.buttonText}>Face Pull</Text>
       </TouchableOpacity>
 
-
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate('Front Raise')}
-      >
-        <Text style={styles.buttonText}>Front Raise</Text>
-      </TouchableOpacity>
 
 
       <TouchableOpacity

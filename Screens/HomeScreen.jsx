@@ -32,7 +32,7 @@ function HomeScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Kardio')}
+        onPress={() => navigation.navigate('Cardio')}
       >
         <Text style={styles.buttonText}>Kardio</Text>
       </TouchableOpacity>
@@ -59,7 +59,7 @@ function HomeScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Karın')}
+        onPress={() => navigation.navigate('Karin')}
       >
         <Text style={styles.buttonText}>Karın</Text>
       </TouchableOpacity>
@@ -86,7 +86,7 @@ function HomeScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Sırt Kanat')}
+        onPress={() => navigation.navigate('Sirt Kanat')}
       >
         <Text style={styles.buttonText}>Sırt-Kanat</Text>
       </TouchableOpacity>

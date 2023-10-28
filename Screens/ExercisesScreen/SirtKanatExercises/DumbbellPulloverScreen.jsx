@@ -1,27 +1,29 @@
 import React from 'react';
-import { View, Text,Button, StyleSheet, Image, } from 'react-native';
+import { View, Text,Button, Image, StyleSheet,  } from 'react-native';
 
-function FrontRaiseScreen({ navigation }) {
+
+function DumbbellPulloverScreen({ navigation }) {
     return (
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
-        
         <Image
-        source={require('../../../Images/Omuz/FrontRaise.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
-        style={{ width: 300, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
+        source={require('../../../Images/SirtKanat/DumbbellPullover.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
+        style={{ width: 300, height:150 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
+        
+
         </View>
-        <Text>Front Raise</Text>
 
-
+        <Text>Dumbbell Pullover</Text>
         <Button
-          title="Omuz Egzersizine Git"
-          onPress={() => navigation.navigate('Omuz')}
+          title="Sırt - Kanat Egzersizine Git"
+          onPress={() => navigation.navigate('Sirt Kanat')}
         />
         
       </View>
     );
   }
+
   const styles = StyleSheet.create({
   
     container: {
@@ -74,4 +76,4 @@ function FrontRaiseScreen({ navigation }) {
     // Diğer stil özellikleri burada tanımlanabilir
   });
 
-export default FrontRaiseScreen;
+export default DumbbellPulloverScreen;

@@ -8,7 +8,7 @@ function DeclineBenchPressScreen({ navigation }) {
         
         <Image
         source={require('../../../Images/Gogus/DeclineBenchPress.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
-        style={{ width: 300, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
+        style={{ width: 400, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>
         <Text>Decline Bench Press</Text>

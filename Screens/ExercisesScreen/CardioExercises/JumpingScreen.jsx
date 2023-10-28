@@ -1,22 +1,22 @@
 import React from 'react';
 import { View, Text,Button, StyleSheet, Image, } from 'react-native';
 
-function BenchPressScreen({ navigation }) {
+function JumpingScreen({ navigation }) {
     return (
       <View style={styles.container}>
         <View style={styles.buttonContainer}>
         
         <Image
-        source={require('../../../Images/Gogus/BenchPress.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
-        style={{ width: 400, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
+        source={require('../../../Images/Cardio/Jumping.gif')} // Resmin dosya yolunu projenize göre ayarlayın
+        style={{ width: 400, height: 350 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>
-        <Text>Bench Press</Text>
+        <Text>Jumping</Text>
 
 
         <Button
-          title="Göğüs Egzersizine Git"
-          onPress={() => navigation.navigate('Göğüs')}
+          title="Karidiyo Egzersizine Git"
+          onPress={() => navigation.navigate('Cardio')}
         />
         
       </View>
@@ -74,4 +74,4 @@ function BenchPressScreen({ navigation }) {
     // Diğer stil özellikleri burada tanımlanabilir
   });
 
-export default BenchPressScreen;
+export default JumpingScreen;

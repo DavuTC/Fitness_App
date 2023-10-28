@@ -7,8 +7,8 @@ function HighStepUpScreen({ navigation }) {
         <View style={styles.buttonContainer}>
         
         <Image
-        source={require('../../../Images/Kalca/FrogPump.jpg')} // Resmin dosya yolunu projenize göre ayarlayın
-        style={{ width: 300, height: 200 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
+        source={require('../../../Images/Kalca/HighStepUp.png')} // Resmin dosya yolunu projenize göre ayarlayın
+        style={{ width: 300, height: 300 }} // Genişlik ve yüksekliği ihtiyaca göre ayarlayın
       />
         </View>
         <Text>HighStep Up</Text>

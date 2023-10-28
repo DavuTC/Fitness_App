@@ -38,9 +38,9 @@ import BentOverLateralRaiseScreen from './Screens/ExercisesScreen/OmuzExercises/
 import CableBentOverLateralRaiseScreen from './Screens/ExercisesScreen/OmuzExercises/CableBentOverLateralRaiseScreen';
 import DumbelFrontRaisesScreen from './Screens/ExercisesScreen/OmuzExercises/DumbelFrontRaisesScreen';
 import FacePullScreen from './Screens/ExercisesScreen/OmuzExercises/FacePullScreen';
-import FrontRaiseScreen from './Screens/ExercisesScreen/OmuzExercises/FrontRaiseScreen';
 import LateralRaiseScreen from './Screens/ExercisesScreen/OmuzExercises/LateralRaiseScreen';
 import OverheadPressScreen from './Screens/ExercisesScreen/OmuzExercises/OverheadPressScreen';
+import UpRightRowScreen from './Screens/ExercisesScreen/OmuzExercises/UpRightRowScreen';
 // bacak egzersizleri
 import JumpSquatScreen from './Screens/ExercisesScreen/BacakExercises/JumpSquatScreen';
 import LyingCurlScreen from './Screens/ExercisesScreen/BacakExercises/LyingCurlScreen';
@@ -58,11 +58,20 @@ import BarbellBicepsCurlScreen from './Screens/ExercisesScreen/IckolExercises/Ba
 import DumbbellConcentrationCurlScreen from './Screens/ExercisesScreen/IckolExercises/DumbbellConcentrationCurlScreen';
 import DumbbellHammerCurlScreen from './Screens/ExercisesScreen/IckolExercises/DumbbellHammerCurlScreen';
 import DumbbellPreacherCurlScreen from './Screens/ExercisesScreen/IckolExercises/DumbbellPreacherCurlScreen';
-
-
-
-
-
+// Sırt-Kanat Egzersizleri
+import CablePullDownsScreen from './Screens/ExercisesScreen/SirtKanatExercises/CablePullDownsScreen';
+import DumbbellPulloverScreen from './Screens/ExercisesScreen/SirtKanatExercises/DumbbellPulloverScreen';
+import LatPullDownScreen from './Screens/ExercisesScreen/SirtKanatExercises/LatPullDownScreen';
+import PullUpsScreen from './Screens/ExercisesScreen/SirtKanatExercises/PullUpsScreen';
+// karın egzersizleri
+import HangingLegRaiseScreen from './Screens/ExercisesScreen/KarinExercises/HangingLegRaiseScreen';
+import PlankScreen from './Screens/ExercisesScreen/KarinExercises/PlankScreen';
+import SidePlankScreen from './Screens/ExercisesScreen/KarinExercises/SidePlankScreen';
+import WeighedCrunchScreen from './Screens/ExercisesScreen/KarinExercises/WeighedCrunchScreen';
+// kaedio egzersizleri 
+import BurpeesScreen from './Screens/ExercisesScreen/CardioExercises/BurpeesScreen';
+import JumpingScreen from './Screens/ExercisesScreen/CardioExercises/JumpingScreen';
+import JumpingRopeScreen from './Screens/ExercisesScreen/CardioExercises/JumpingRopeScreen';
 
 
 const Stack = createStackNavigator();
@@ -72,14 +81,14 @@ function App(){
       <Stack.Navigator initialRouteName='Home'>
         <Stack.Screen name='Ana Sayfa' component={HomeScreen}/>
         <Stack.Screen name='Göğüs' component={GogusScreen}/>
-        <Stack.Screen name='Sırt Kanat' component={SirtKanatScreen}/>
+        <Stack.Screen name='Sirt Kanat' component={SirtKanatScreen}/>
         <Stack.Screen name='Ic Kol' component={OnKolScreen}/>
         <Stack.Screen name='Arka Kol' component={ArkaKolScreen}/>
         <Stack.Screen name='Omuz' component={OmuzScreen}/>
-        <Stack.Screen name='Karın' component={KarinScreen}/>
+        <Stack.Screen name='Karin' component={KarinScreen}/>
         <Stack.Screen name='Bacak' component={BacakScreen}/>
         <Stack.Screen name='Kalca' component={KalcaScreen}/>
-        <Stack.Screen name='Kardio' component={CardioScreen}/>
+        <Stack.Screen name='Cardio' component={CardioScreen}/>
         {/* // arka kol egzersizleri */}
         <Stack.Screen name='Diamond Push Up' component={DiamondPushUpScreen}/>
         <Stack.Screen name='Cable Triceps Push Down' component={CableTricepsPushDownScreen}/>
@@ -107,7 +116,7 @@ function App(){
         <Stack.Screen name='Bent Over Lateral Raise' component={BentOverLateralRaiseScreen}/>
         <Stack.Screen name='Dumbel Front Raises' component={DumbelFrontRaisesScreen}/>
         <Stack.Screen name='Face Pull' component={FacePullScreen}/>
-        <Stack.Screen name='Front Raise' component={FrontRaiseScreen}/>
+        <Stack.Screen name='Up Right Row' component={UpRightRowScreen}/>
         <Stack.Screen name='Lateral Raise' component={LateralRaiseScreen}/>
         <Stack.Screen name='Overhead Press' component={OverheadPressScreen}/>
         {/* bacak egzersizleri */}
@@ -127,6 +136,21 @@ function App(){
         <Stack.Screen name='Dumbbell Concentration Curl' component={DumbbellConcentrationCurlScreen}/>
         <Stack.Screen name='Dumbbell HammerCurl' component={DumbbellHammerCurlScreen}/>
         <Stack.Screen name='Dumbbell PreacherCurl' component={DumbbellPreacherCurlScreen}/>
+        {/* sırt-kanat egzersizleri */}
+        <Stack.Screen name='Cable PullDowns' component={CablePullDownsScreen}/>
+        <Stack.Screen name='Dumbbell Pullover' component={DumbbellPulloverScreen}/>
+        <Stack.Screen name='Lat PullDown' component={LatPullDownScreen}/>
+        <Stack.Screen name='Pull Ups' component={PullUpsScreen}/>
+        {/* karın egzersizleri */}
+        <Stack.Screen name='Hanging Leg Raise' component={HangingLegRaiseScreen}/>
+        <Stack.Screen name='Plank' component={PlankScreen}/>
+        <Stack.Screen name='Side Plank' component={SidePlankScreen}/>
+        <Stack.Screen name='Weighed Crunch' component={WeighedCrunchScreen}/>
+        {/* Kardio egzersizleri */}
+        <Stack.Screen name='Burpees' component={BurpeesScreen}/>
+        <Stack.Screen name='Jumping' component={JumpingScreen}/>
+        <Stack.Screen name='Jumping Rope' component={JumpingRopeScreen}/>
+
 
 
 
