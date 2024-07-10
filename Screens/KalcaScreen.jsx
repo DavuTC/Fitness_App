@@ -10,9 +10,9 @@ function KalcaScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('CableGlute KickBack')}
+        onPress={() => navigation.navigate('Cable Glute KickBack')}
       >
-        <Text style={styles.buttonText}>CableGlute KickBack</Text>
+        <Text style={styles.buttonText}>Cable Glute KickBack</Text>
       </TouchableOpacity> 
 
 
@@ -34,7 +34,7 @@ function KalcaScreen({ navigation }) {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('HighStep Up')}
+        onPress={() => navigation.navigate('High Step Up')}
       >
         <Text style={styles.buttonText}>HighStep Up</Text>
       </TouchableOpacity>

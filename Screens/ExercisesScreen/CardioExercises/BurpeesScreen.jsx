@@ -16,7 +16,7 @@ function BurpeesScreen({ navigation }) {
 
         <Button
           title="Kardiyo Egzersizine Git"
-          onPress={() => navigation.navigate('Cardio')}
+          onPress={() => navigation.navigate('Kardio')}
         />
         
       </View>

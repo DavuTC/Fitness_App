@@ -16,7 +16,7 @@ function WeighedCrunchScreen({ navigation }) {
 
         <Button
           title="Karın Egzersizine Git"
-          onPress={() => navigation.navigate('Karin')}
+          onPress={() => navigation.navigate('Karın')}
         />
         
       </View>

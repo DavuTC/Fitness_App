@@ -10,9 +10,9 @@ function SirtKanatScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Cable PullDowns')}
+        onPress={() => navigation.navigate('Cable Pull Downs')}
       >
-        <Text style={styles.buttonText}>Cable PullDowns</Text>
+        <Text style={styles.buttonText}>Cable Pull Downs</Text>
       </TouchableOpacity> 
 
 
@@ -26,9 +26,9 @@ function SirtKanatScreen({ navigation }) {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Lat PullDown')}
+        onPress={() => navigation.navigate('Lat Pull Down')}
       >
-        <Text style={styles.buttonText}>Lat PullDown</Text>
+        <Text style={styles.buttonText}>Lat Pull Down</Text>
       </TouchableOpacity>
 
 
@@ -39,10 +39,6 @@ function SirtKanatScreen({ navigation }) {
         <Text style={styles.buttonText}>Pull Ups</Text>
       </TouchableOpacity>
 
-
-  
-      
-      {/* Diğer menü öğeleri ve yönlendirmeleri */}
       </View>
       <Button
         title="Ana Sayfa'ya Git"
@@ -57,8 +53,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center', // Öğeleri dikey olarak ortalar
-    padding: 16, // Yastıklama
+    alignItems: 'center', 
+    padding: 16, 
     backgroundColor: '#000000',
     
   },
@@ -70,10 +66,10 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    width: 100, // Genişlik
-    height: 100, // Yükseklik
+    width: 100, 
+    height: 100, 
     justifyContent: 'center',
-    alignItems: 'center', // Öğeleri dikey olarak ortalar
+    alignItems: 'center', 
     margin: 10,
     backgroundColor: '#BB994A',
     

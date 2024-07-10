@@ -17,7 +17,7 @@ function CablePullDownsScreen({ navigation }) {
         <Text>Cable PullDowns</Text>
         <Button
           title="Sırt - Kanat Egzersizine Git"
-          onPress={() => navigation.navigate('Sirt Kanat')}
+          onPress={() => navigation.navigate('Sırt Kanat')}
         />
         
       </View>

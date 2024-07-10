@@ -26,7 +26,7 @@ function IcKolScreen({ navigation }) {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Dumbbell HammerCurl')}
+        onPress={() => navigation.navigate('Dumbbell Hammer Curl')}
       >
         <Text style={styles.buttonText}>Dumbbell HammerCurl'</Text>
       </TouchableOpacity>
@@ -35,7 +35,7 @@ function IcKolScreen({ navigation }) {
 
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Dumbbell PreacherCurl')}
+        onPress={() => navigation.navigate('Dumbbell Preacher Curl')}
       >
         <Text style={styles.buttonText}>Dumbbell PreacherCurl</Text>
       </TouchableOpacity>

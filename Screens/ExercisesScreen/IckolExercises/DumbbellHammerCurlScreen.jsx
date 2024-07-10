@@ -16,7 +16,7 @@ function DumbbellHammerCurlScreen({ navigation }) {
 
         <Button
           title="İç Kol Egzersizine Git"
-          onPress={() => navigation.navigate('Ic Kol')}
+          onPress={() => navigation.navigate('İç Kol')}
         />
         
       </View>

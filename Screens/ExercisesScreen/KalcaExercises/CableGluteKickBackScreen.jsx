@@ -16,7 +16,7 @@ function CableGluteKickBackScreen({ navigation }) {
 
         <Button
           title="Kalça Egzersizine Git"
-          onPress={() => navigation.navigate('Kalca')}
+          onPress={() => navigation.navigate('Kalça')}
         />
         
       </View>

@@ -16,7 +16,7 @@ function JumpingScreen({ navigation }) {
 
         <Button
           title="Karidiyo Egzersizine Git"
-          onPress={() => navigation.navigate('Cardio')}
+          onPress={() => navigation.navigate('Kardio')}
         />
         
       </View>

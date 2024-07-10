@@ -32,7 +32,7 @@ function HomeScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Cardio')}
+        onPress={() => navigation.navigate('Kardio')}
       >
         <Text style={styles.buttonText}>Kardio</Text>
       </TouchableOpacity>
@@ -50,7 +50,7 @@ function HomeScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Kalca')}
+        onPress={() => navigation.navigate('Kalça')}
       >
         <Text style={styles.buttonText}>Kalça</Text>
       </TouchableOpacity>
@@ -59,7 +59,7 @@ function HomeScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Karin')}
+        onPress={() => navigation.navigate('Karın')}
       >
         <Text style={styles.buttonText}>Karın</Text>
       </TouchableOpacity>
@@ -77,7 +77,7 @@ function HomeScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Ic Kol')}
+        onPress={() => navigation.navigate('İç Kol')}
       >
         <Text style={styles.buttonText}>İç Kol</Text>
       </TouchableOpacity>  
@@ -86,7 +86,7 @@ function HomeScreen({ navigation }) {
       
       <TouchableOpacity
         style={styles.button}
-        onPress={() => navigation.navigate('Sirt Kanat')}
+        onPress={() => navigation.navigate('Sırt Kanat')}
       >
         <Text style={styles.buttonText}>Sırt-Kanat</Text>
       </TouchableOpacity>
@@ -103,8 +103,8 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center', // Öğeleri dikey olarak ortalar
-    padding: 16, // Yastıklama
+    alignItems: 'center', 
+    padding: 16,
     backgroundColor: '#000000',
     
   },
@@ -116,10 +116,10 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    width: 100, // Genişlik
-    height: 100, // Yükseklik
+    width: 100, 
+    height: 100, 
     justifyContent: 'center',
-    alignItems: 'center', // Öğeleri dikey olarak ortalar
+    alignItems: 'center', 
     margin: 10,
     backgroundColor: '#BB994A',
     
@@ -145,9 +145,9 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    resizeMode: 'cover', // Resmi boyutlandırma modu
+    resizeMode: 'cover', 
   },
-  // Diğer stil özellikleri burada tanımlanabilir
+ 
 });
 
 

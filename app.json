@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Rn",
-    "slug": "Rn",
+    "name": "DTCfit",
+    "slug": "DTCfit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2fdaa14b-468c-4023-b6c0-256087862bac"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2fdaa14b-468c-4023-b6c0-256087862bac"
+      }
     }
   }
 }
